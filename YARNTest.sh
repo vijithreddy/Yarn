@@ -6,7 +6,7 @@
 HADOOP_PATH=/opt/cloudera/parcels/CDH/lib/hadoop-0.20-mapreduce
 
 # Mapper containers
-for i in 8
+for i in 2 4 8
 do
    # Reducer containers
    for j in 2 4 8
